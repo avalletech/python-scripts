@@ -17,3 +17,5 @@ for app in apps:
         print(f"Launched: {app}")
     except Exception as e:
         print(f"Failed to launch {app}: {e}")
+
+# Path Changed for General Use
