@@ -66,6 +66,38 @@ python pc_startup.py
 
 ---
 
+### `subnet_calc.py`
+A subnet calculator written in Python. You can input any IP address (in CIDR notation) and get your key network details.
+
+## Output
+- Network Address
+- Broadcast Address
+- Subnet mask
+- Usable Host Ranges
+- A Number of usable hosts
+
+## Usage
+
+```bash
+python subnet_calc.py
+```
+
+Then enter an IP in CIDR format:
+
+Type 'quit' to exit.
+
+## Requirements
+- Python 3.x
+- No external libraries -- I used Python's built-in `ipaddress` module
+
+## Background
+Built as a practical networking utility while studying for CompTIA Network+ and 
+taking network courses at CUNY New York City College of Technology. 
+Useful for quickly referencing subnet details without manual calculation.
+
+## Status
+Work in progress -- core functionality is stable.
+
 ## Environment
 
 - Python 3.10+
