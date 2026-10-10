@@ -91,8 +91,8 @@ Type 'quit' to exit.
 - No external libraries -- I used Python's built-in `ipaddress` module
 
 ## Background
-Built as a practical networking utility while studying for CompTIA Network+ and 
-taking network courses at CUNY New York City College of Technology. 
+Built as a practical networking utility as part of my networking studies 
+and network courses at CUNY New York City College of Technology. 
 Useful for quickly referencing subnet details without manual calculation.
 
 ## Status
